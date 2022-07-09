@@ -7,7 +7,6 @@ function App() {
     <div id="grid">
     <Header></Header>
     <main>
-      <p>hi</p>
     </main>
     <Footer></Footer>
     </div>
