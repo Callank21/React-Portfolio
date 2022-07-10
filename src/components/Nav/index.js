@@ -1,21 +1,28 @@
-function Nav() {
-
-
-    function navClick() {
-        
-    }
+function Nav({ currentPage, handlePageChange}) {
     return (
         <nav>
-            <p onClick={navClick}>
+            <p 
+            onClick={() => handlePageChange('About')}
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+            >
                 About
             </p>
-            <p>
+            <p
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            >
                 Contact
             </p>
-            <p>
+            <p
+            onClick={() => handlePageChange('Project')}
+            className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
+            >
                 Project
             </p>
-            <p>
+            <p
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            >
                 Resume
             </p>
         </nav>

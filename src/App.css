@@ -12,7 +12,7 @@ header {
   background-image: url('./assets/derelict-banner.jpg');
   width: 100%;
   background-size: 100%;
-  /* padding: 5%; */
+  /* padding: 5%; */ 
   background-repeat: stretch;
   grid-area: header;
 }
