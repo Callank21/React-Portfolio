@@ -26,7 +26,7 @@ function Header() {
 
     const handlePageChange = (page) => setCurrentPage(page);
     return (
-    <div>
+    <div id='grid'>
     <header>
         <div>
         <p> Callan Keesling</p>
@@ -34,7 +34,9 @@ function Header() {
         </div>
     </header>
     <main>
+      <div className='Main'>
       {changePage()}
+      </div>
     </main>
     <Footer></Footer>
     </div>
