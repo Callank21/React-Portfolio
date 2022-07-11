@@ -110,6 +110,13 @@ main {
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#12131c;
 }
+.resumeForm > * {
+  margin: .5rem;
+  padding: .5rem;
+}
+.list li {
+  font-size: 1.15rem;
+}
 footer {
   padding: 2%;
   background-color: #5a4c4f;
