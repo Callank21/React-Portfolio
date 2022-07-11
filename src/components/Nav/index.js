@@ -8,16 +8,16 @@ function Nav({ currentPage, handlePageChange}) {
                 About
             </p>
             <p
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-            >
-                Contact
-            </p>
-            <p
             onClick={() => handlePageChange('Project')}
             className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
             >
                 Project
+            </p>
+            <p
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            >
+                Contact
             </p>
             <p
             onClick={() => handlePageChange('Resume')}
