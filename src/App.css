@@ -7,6 +7,7 @@
     "header"
     "main"
     "footer";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
   background-image: url('./assets/derelict-banner.jpg');
@@ -57,6 +58,30 @@ main {
 .photo img {
   width: 10rem;
   height: 10rem;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.card a {
+  color:#b8cedd;
+  font-size: 2rem;
+}
+.cardImage {
+  width: 20vw;
+  height: 20vh;
+}
+.gitLinkContainer {
+  padding-left: 45%;
+}
+.gitLink {
+  width: 5rem;
+  height: 5rem;
 }
 .paragraph {
   font-size: 1.5rem;

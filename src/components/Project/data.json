@@ -1,41 +1,41 @@
 [
     {
         "id": 1,
-        "image": "self-management-app.png",
+        "image": "self-management-app.PNG",
         "title": "Self Management App",
         "app": "https://self-management-app.herokuapp.com/",
         "github": "https://github.com/Callank21/Self-Management-App"
     },
     {
         "id": 2,
-        "image": "tech-blog.png",
+        "image": "tech-blog.PNG",
         "title": "Tech Blog",
         "app": "https://mighty-cliffs-68601.herokuapp.com/",
         "github": "https://github.com/Callank21/Tech-Blog"
     },
     {
         "id": 3,
-        "image": "air-pollution-tracker.png",
+        "image": "air-pollution-tracker.PNG",
         "title": "Air Pollution Tracker",
         "app": "https://callank21.github.io/group-project/",
         "github": "https://github.com/Callank21/group-project"
     },
     {
         "id": 4,
-        "image": "work-day-scheduler.png",
+        "image": "work-day-scheduler.PNG",
         "title": "Work Day Scheduler",
         "app": "https://callank21.github.io/work-scheduler/",
         "github": "https://github.com/Callank21/work-scheduler"
     },
     {
         "id": 5,
-        "image": "weather-dashboard.png",
+        "image": "weather-dashboard.PNG",
         "title": "Weather Dashboard",
         "app": "https://callank21.github.io/weather-dashboard/",
         "github": "https://github.com/Callank21/weather-dashboard"
     },{
         "id": 6,
-        "image": "coding-quiz.png",
+        "image": "coding-quiz.PNG",
         "title": "Coding Quiz",
         "app": "https://callank21.github.io/code-quiz/",
         "github": "https://github.com/Callank21/code-quiz"
