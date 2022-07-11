@@ -122,3 +122,10 @@ footer {
   background-color: #5a4c4f;
   grid-area: footer;
 }
+footer img {
+  width: 5vw;
+  height: 5vh;
+}
+.footerContainer {
+padding-left: 40%;
+}
