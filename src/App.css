@@ -40,6 +40,7 @@ nav {
 main {
   grid-area: main;
   background-color: #12131c;
+  color: #b8cedd;
 }
 .Main {
   margin-left: 25vw;
@@ -49,7 +50,12 @@ main {
 }
 .title {
   font-size: 4rem;
-  color: #b8cedd;
+}
+.subHead {
+  font-size: 2rem;
+}
+.paragraph {
+  font-size: 1.5rem;
 }
 .photo {
   width: 100%;
@@ -69,8 +75,8 @@ main {
   padding: 3rem;
 }
 .card a {
-  color:#b8cedd;
   font-size: 2rem;
+  color: #b8cedd;
 }
 .cardImage {
   width: 20vw;
@@ -83,9 +89,26 @@ main {
   width: 5rem;
   height: 5rem;
 }
-.paragraph {
+.contactShell {
+ margin-right: 15vw;
+}
+.contactForm > * {
+  padding: .5rem;
+  margin: .5rem;
+}
+.contactForm label {
   font-size: 1.5rem;
-  color: #b8cedd;
+}
+.contactForm input {
+  width: 100%;
+}
+.contactForm textarea {
+  width: 100%;
+  height: 10vh;
+}
+.contactForm button {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#12131c;
 }
 footer {
   padding: 2%;

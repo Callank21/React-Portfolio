@@ -11,8 +11,11 @@ function Project() {
         )
     })
     return (
-        <div className="cardContainer">
-            {card}
+        <div>
+            <p className="subHead">Portfolio</p>
+            <div className="cardContainer">
+                {card}
+            </div>
         </div>
     )
 }
