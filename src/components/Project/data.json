@@ -40,12 +40,5 @@
         "title": "Weather Dashboard",
         "app": "https://callank21.github.io/weather-dashboard/",
         "github": "https://github.com/Callank21/weather-dashboard"
-    },
-    {
-        "id": 7,
-        "image": "coding-quiz.PNG",
-        "title": "Coding Quiz",
-        "app": "https://callank21.github.io/code-quiz/",
-        "github": "https://github.com/Callank21/code-quiz"
     }
 ]
